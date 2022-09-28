@@ -1,0 +1,6 @@
+name: 'Globe JSON API Enhancers'
+type: module
+description: 'Enhances core JSON API field responses'
+core: 8.x
+package: 'API'
+core_version_requirement: ^8 || ^9

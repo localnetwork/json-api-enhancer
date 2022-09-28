@@ -1,8 +1,8 @@
 services:
   # Name of this service.
-  globe_json_api.request.subscriber:
+  json_api.request.subscriber:
     # Event subscriber class that will listen for the events.
-    class: '\Drupal\globe_json_api_enhancers\EventSubscriber\JSONAPIRequestEventsSubscriber'
+    class: '\Drupal\json_api_enhancers\EventSubscriber\JSONAPIRequestEventsSubscriber'
     arguments: ['@config.factory']
     # Tagged as an event_subscriber to register this subscriber with the event_dispatch service.
     tags:

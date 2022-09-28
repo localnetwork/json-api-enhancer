@@ -1,0 +1,1 @@
+Enhances core JSON API field responses
